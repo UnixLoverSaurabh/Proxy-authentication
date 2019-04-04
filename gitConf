@@ -1,0 +1,22 @@
+### Setting proxy for git
+
+Command to use:
+
+`git config --global http.proxy http://proxyuser:proxypwd@proxyServer:3128`
+
+    change proxyuser to your proxy user  
+    change proxypwd to your proxy password  
+    change proxyServer to the URL of your proxy server  
+    change 3128 to the proxy port configured on your proxy server  
+
+
+If you decide at any time to reset this proxy and work without proxy:
+
+Command to use:
+
+`git config --global --unset http.proxy`
+
+Finally, to check the currently set proxy:
+
+`git config --global --get http.proxy`
+
