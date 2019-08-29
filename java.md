@@ -6,7 +6,7 @@ In the Ubuntu 16.04 and later default repositories JavaFX is packaged as a separ
 
 ### Method 2
 Step 1:
-  Download latest jdk from oracle
+  Download latest jdk from oracle (Linux x64)
   https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 Step 2:
