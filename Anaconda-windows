@@ -1,0 +1,20 @@
+you need to create a .condarc file in you Windows user area:
+  C:\Users\<username>\
+
+
+The file should contain:
+
+channels:
+- defaults
+
+# Show channel URLs when displaying what is going to be downloaded and
+# in 'conda list'. The default is False.
+show_channel_urls: True
+allow_other_channels: True
+
+proxy_servers:
+    http: http://edcguest:edcguest@172.31.100.27:3128
+    https: http://edcguest:edcguest@172.31.100.27:3128
+
+
+ssl_verify: False
